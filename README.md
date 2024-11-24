@@ -1,4 +1,4 @@
-wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww# 🌐 POC 6 - React em Prática 🌐
+## 🌐 POC 6 - React em Prática 🌐
 
 > Este projeto simula uma sala de cinema interativa, permitindo a seleção de assentos, visualização de informações do filme e um layout responsivo adaptado para diferentes dispositivos e modos de tema.
 
