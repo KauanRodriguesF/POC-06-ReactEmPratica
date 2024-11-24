@@ -35,7 +35,12 @@ A interface do projeto foi projetada para ser intuitiva e visualmente atraente, 
 
 **Versão Mobile e Desktop em Modos Light e Dark:**
 
-![Versões Mobile e Desktop](https://github.com/user-attachments/sample-mobile-desktop.png)
+![DarkMode](https://github.com/user-attachments/assets/ba81e78f-b9f2-48d0-97c7-1b45601e5853)
+
+![LightMode](https://github.com/user-attachments/assets/4aa27c3f-2d46-4e05-b0bf-8b70beef0cd3)
+
+
+
 
 ---
 
