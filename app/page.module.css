@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.screen {
+  width: 100%;
+  max-width: 300px;
+  height: 10px;
+  background-color: #cccccc;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+.legend {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.legendItem div {
+  width: 15px;
+  height: 15px;
+  border-radius: 3px;
+}
+
+.available {
+  background-color: #1f1f1f;
+}
+
+.selected {
+  background-color: #61f475;
+}
+
+.unavailable {
+  background-color: #e63946;
+}

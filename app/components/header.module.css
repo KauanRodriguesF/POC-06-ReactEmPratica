@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  text-align: left; 
+  color: var(--text); 
+}
+
+.headerTitulo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: var(--text); 
+}
+
+.headerSubtitle {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: var(--text); 
+}
+
+.trocaTema {
+  background-color: #e63946;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.trocaTema:hover {
+  background-color: #b32636;
+}

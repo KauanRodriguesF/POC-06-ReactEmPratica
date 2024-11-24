@@ -1,0 +1,31 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 10px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.seat {
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.disponivel {
+  background-color: #1f1f1f;
+  border: 1px solid #2c2c2c;
+}
+
+.indisponivel {
+  background-color: #e63946;
+  border: 1px solid #b32636;
+  cursor: not-allowed;
+}
+
+.selecionado {
+  background-color: #61f475;
+  border: 2px solid #04ca3f;
+}

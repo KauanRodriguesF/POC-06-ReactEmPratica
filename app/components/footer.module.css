@@ -1,0 +1,21 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.botaoCompra {
+  background-color: #e63946;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.botaoCompra:hover {
+  background-color: #b32636;
+}
