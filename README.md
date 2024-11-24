@@ -1,4 +1,4 @@
-# 🌐 POC 6 - React em Prática 🌐
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww# 🌐 POC 6 - React em Prática 🌐
 
 > Este projeto simula uma sala de cinema interativa, permitindo a seleção de assentos, visualização de informações do filme e um layout responsivo adaptado para diferentes dispositivos e modos de tema.
 
@@ -58,9 +58,9 @@ A interface do projeto foi projetada para ser intuitiva e visualmente atraente, 
 
 O projeto foi estruturado em componentes para facilitar a leitura e manutenção do código. Os principais componentes incluem:
 
-- **`Assento.js`**: Gerencia o estado e a renderização individual de cada assento.
-- **`Filme.js`**: Exibe as informações do filme selecionado.
-- **`BotaoCompra.js`**: Calcula o valor total e exibe a mensagem de confirmação.
+- `footer.tsx`: Exibe o rodapé da aplicação.
+- `header.tsx`: Exibe o cabeçalho da aplicação.
+- `seatmap.tsx`: Gerencia o layout do mapa de assentos.
 
 ### Exemplo de JSON para Dados dos Assentos
 
@@ -93,23 +93,16 @@ O projeto foi estruturado em componentes para facilitar a leitura e manutenção
   npx create-next-app@latest
   ```
 
-### 2. Criação dos Componentes
-
-- Desenvolva os componentes principais:
-  - `footer.tsx`: Exibe o rodapé da aplicação.
-  - `header.tsx`: Exibe o cabeçalho da aplicação.
-  - `seatmap.tsx`: Gerencia o layout do mapa de assentos.
-
-### 3. Configuração do Tema
+### 2. Configuração do Tema
 
 - Use Media Queries para alternar entre os modos **Light** e **Dark**.
 - Adicione variáveis CSS para facilitar a personalização dos estilos.
 
-### 4. Renderização Condicional
+### 3. Renderização Condicional
 
 - Utilize o Hook `useState` para gerenciar o estado de disponibilidade e seleção dos assentos.
 
-### 5. Teste e Ajustes Finais
+### 4. Teste e Ajustes Finais
 
 - Garanta que o layout seja responsivo.
 - Verifique a consistência do tema em dispositivos mobile e desktop.
