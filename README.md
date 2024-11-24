@@ -96,9 +96,9 @@ O projeto foi estruturado em componentes para facilitar a leitura e manutenção
 ### 2. Criação dos Componentes
 
 - Desenvolva os componentes principais:
-  - `Assento.js`: Representação visual e funcionalidade de cada assento.
-  - `Filme.js`: Exibição das informações do filme.
-  - `BotaoCompra.js`: Cálculo e mensagem de confirmação.
+  - `footer.tsx`: Exibe o rodapé da aplicação.
+  - `header.tsx`: Exibe o cabeçalho da aplicação.
+  - `seatmap.tsx`: Gerencia o layout do mapa de assentos.
 
 ### 3. Configuração do Tema
 
@@ -120,15 +120,15 @@ O projeto foi estruturado em componentes para facilitar a leitura e manutenção
 
 1. Clone este repositório:
    ```bash
-   git clone <URL_DO_REPOSITORIO>
+   git clone <https://github.com/KauanRodriguesF/POC-06-ReactEmPratica/tree/main>
    ```
 2. Navegue até a pasta do projeto:
    ```bash
-   cd poc-react-cinema
+   app
    ```
 3. Instale as dependências:
    ```bash
-   npm install
+   npm installa
    ```
 4. Inicie o servidor de desenvolvimento:
    ```bash
@@ -136,23 +136,4 @@ O projeto foi estruturado em componentes para facilitar a leitura e manutenção
    ```
 5. Acesse no navegador: [http://localhost:3000](http://localhost:3000)
 
----
-
-## 📂 Estrutura de Pastas
-
-```plaintext
-poc-react-cinema/
-├── components/
-│   ├── Assento.js
-│   ├── Filme.js
-│   ├── BotaoCompra.js
-├── public/
-│   └── assets/
-├── styles/
-│   └── globals.css
-├── pages/
-│   ├── index.js
-│   └── _app.js
-└── package.json
-```
 
