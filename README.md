@@ -64,7 +64,7 @@ O projeto foi estruturado em componentes para facilitar a leitura e manutenção
 
 ### Exemplo de JSON para Dados dos Assentos
 
-```json
+```js
 return (
     <div className={styles.grid}>
       {seats.map((seat) => (
