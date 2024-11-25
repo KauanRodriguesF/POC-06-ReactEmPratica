@@ -65,6 +65,8 @@ O projeto foi estruturado em componentes para facilitar a leitura e manutenção
 ### Exemplo de JSON para Dados dos Assentos
 
 ```json
+return (
+    <div className={styles.grid}>
       {seats.map((seat) => (
         <div
           key={seat.numero}
@@ -78,6 +80,8 @@ O projeto foi estruturado em componentes para facilitar a leitura e manutenção
           onClick={() => handleSeatClick(seat)}
         ></div>
       ))}
+    </div>
+  );
 ```
 
 ---
