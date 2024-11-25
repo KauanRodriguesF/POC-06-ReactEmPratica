@@ -65,20 +65,21 @@ O projeto foi estruturado em componentes para facilitar a leitura e manutenção
 ### Exemplo de JSON para Dados dos Assentos
 
 ```json
-{
-  "filme": {
-    "titulo": "A Forja",
-    "horario": "16:40",
-    "sinopse": "Um ano depois de encerrar o ensino médio, o jovem Isaías Wright tenta...",
-    "dataLancamento": "26 de setembro de 2024 (Brasil)",
-    "direcao": "Alex Kendrick"
-  },
-  "assentos": [
-    { "id": 1, "disponivel": true },
-    { "id": 2, "disponivel": false },
-    { "id": 3, "disponivel": true }
-  ]
-}
+<div className={styles.grid}>
+      {seats.map((seat) => (
+        <div
+          key={seat.numero}
+          className={`${styles.seat} ${
+            !seat.disponivel
+              ? styles.indisponivel
+              : selectedSeats.includes(seat.numero)
+              ? styles.selecionado
+              : styles.disponivel
+          }`}
+          onClick={() => handleSeatClick(seat)}
+        ></div>
+      ))}
+    </div>
 ```
 
 ---
